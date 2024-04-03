@@ -1,0 +1,31 @@
+.friends-match-details{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #a52125;
+    padding: 2rem;
+}
+.friends-details{
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    gap: 2rem;
+}
+.friends-name{
+    margin-bottom: 2rem;
+}
+.friends-hero{
+    object-fit: contain;
+    height: 164px;
+    border-bottom: 1px solid #a52125;
+    padding: 2rem;
+}
+.friend-hero-sidebar{
+    border: 1px solid #a52125;
+}
+.friend-hero-info{
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}

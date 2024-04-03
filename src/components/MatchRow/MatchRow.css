@@ -1,0 +1,47 @@
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+.win{
+    color: limegreen;
+}
+.loss{
+    color: red;
+}
+.result{
+    display: flex;
+    flex-direction: row;
+}
+td{
+    margin: 0;
+    padding: 4px 0;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    vertical-align: middle;
+    justify-items: center;
+    
+    justify-content: center;    
+}
+tr:hover{
+    background-color: rgba(29, 27, 28, 0.452);
+}
+tr{
+    border-bottom: 1px solid black;
+}
+.row-win{
+    background-color: rgba(50, 205, 50, 0.05);
+}
+.row-loss{
+    background-color: rgba(255, 0, 0, 0.05);
+}
+.match-history-friends{
+    font-weight: 200;
+    font-size: 18px;
+}
+.hero-row-icon{
+    margin-right: 4px;
+}

@@ -1,0 +1,10 @@
+.comment{
+    margin-bottom: 1rem;
+}
+.comment p{
+    margin-top: 3px;
+    font-weight: 700;
+}
+.comment h2{
+    color: #7c060a;
+}

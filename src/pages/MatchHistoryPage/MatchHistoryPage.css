@@ -1,0 +1,34 @@
+.match-history{
+    font-family: "Trebuchet", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+table{
+    margin-top: 3rem;
+    width: 80vw;
+    border-collapse: collapse;
+}
+th{
+    padding: 7px 0;
+}
+.match-table{
+    width: 80vw !important;
+}
+.sort-button{
+    border: none;
+    margin-left: 4px;
+    padding-bottom: 4px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.down{
+    background-image: url(/src//images/down-arrow.png);
+}
+.up{
+    background-image: url(/src//images/up-arrow.png);
+}
+.sort-button:hover{
+    background-color: transparent;
+}

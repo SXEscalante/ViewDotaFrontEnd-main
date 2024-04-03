@@ -1,0 +1,20 @@
+.friend-hero-box{
+    padding-top: 2rem;
+    margin-right: 12rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 165px;
+    border: 2px solid #a52125;
+    width: 400px;
+    height: 500px;
+}
+.new-comment-button{
+    background-color: #89191c;
+    color: #f6d0d1;
+}
+.new-comment-button:hover{
+    background-color: #f6d0d1;
+    color: #89191c;
+}

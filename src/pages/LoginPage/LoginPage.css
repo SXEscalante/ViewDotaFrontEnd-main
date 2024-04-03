@@ -1,0 +1,10 @@
+.error {
+  color: red;
+}
+.register{
+  text-decoration: underline;
+  color: #ad262b;
+}
+.container{
+  margin-top: 4rem;
+}
