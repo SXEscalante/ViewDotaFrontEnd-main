@@ -4,6 +4,7 @@ import aeon_disk from '../images/ItemIcons/Aeon_Disk_icon.webp'
 import aether_lens from '../images/ItemIcons/Aether_Lens_icon.webp'
 import aghanims_scepter from '../images/ItemIcons/Aghanim%27s_Scepter_icon.webp'
 import aghanims_shard from '../images/ItemIcons/Aghanim%27s_Shard_icon.webp'
+import ancient_guardian from '../images/ItemIcons/Ancient_Guardian_icon.webp'
 import apex from '../images/ItemIcons/Apex_icon.webp'
 import arcane_blink from '../images/ItemIcons/Arcane_Blink_icon.webp'
 import arcane_boots from '../images/ItemIcons/Arcane_Boots_icon.webp'
@@ -12,6 +13,7 @@ import arcanist_armor from '../images/ItemIcons/Arcanist%27s_Armor_icon.webp'
 import armlet_of_mordiggain from '../images/ItemIcons/Armlet_of_Mordiggian_29_icon.webp'
 import ascetic_cap from '../images/ItemIcons/Ascetic%27s_Cap_icon.webp'
 import assault_cuirass from '../images/ItemIcons/Assault_Cuirass_icon.webp'
+import avianas_feather from '../images/ItemIcons/Aviana%27s_Feather_icon.webp'
 import ballista from '../images/ItemIcons/Ballista_icon.webp'
 import band_of_elvenskin from '../images/ItemIcons/Band_of_Elvenskin_icon.webp'
 import battle_fury from '../images/ItemIcons/Battle_Fury_icon.webp'
@@ -29,6 +31,7 @@ import bloodstone from '../images/ItemIcons/Bloodstone_icon.webp'
 import bloodthorn from '../images/ItemIcons/Bloodthorn_icon.webp'
 import book_of_shadow from '../images/ItemIcons/Book_of_Shadows_icon.webp'
 import book_of_the_dead from '../images/ItemIcons/Book_of_the_Dead_icon.webp'
+import boots_of_bearing from '../images/ItemIcons/Boots_of_Bearing_icon.webp'
 import boots_of_speed from '../images/ItemIcons/'
 import boots_of_travel_1 from '../images/ItemIcons/Boots_of_Travel_1_icon.webp'
 import boots_of_travel_2 from '../images/ItemIcons/Boots_of_Travel_2_icon.webp'
@@ -50,28 +53,36 @@ import claymore from '../images/ItemIcons/Claymore_icon.webp'
 import cloak from '../images/ItemIcons/Cloak_icon.webp'
 import cloak_of_flames from '../images/ItemIcons/Cloak_of_Flames_icon.webp'
 import clumsy_net from '../images/ItemIcons/Clumsy_Net_icon.webp'
+import cornucopia from '../images/ItemIcons/Cornucopia_icon.webp'
 import craggy_coat from '../images/ItemIcons/Craggy_Coat_icon.webp'
 import crimson_guard from '../images/ItemIcons/Crimson_Guard_icon.webp'
 import crown from '../images/ItemIcons/Crown_icon.webp'
 import crystalys from '../images/ItemIcons/Crystalys_icon.webp'
 import daedalus from '../images/ItemIcons/Daedalus_icon.webp'
+import dagger_of_ristul from '../images/ItemIcons/Dagger_of_Ristul_icon.webp'
 import dagonI from '../images/ItemIcons/Dagon_1_icon.webp'
 import dagonII from '../images/ItemIcons/Dagon_2_icon.webp'
 import dagonIII from '../images/ItemIcons/Dagon_3_icon.webp'
 import dagonIV from '../images/ItemIcons/Dagon_4_icon.webp'
 import dagonV  from '../images/ItemIcons/Dagon_5_icon.webp'
+import dandelion_amulet from '../images/ItemIcons/Dandelion_Amulet_icon.webp'
+import defiant_shell from '../images/ItemIcons/Defiant_Shell_icon.webp'
 import demon_edge from '../images/ItemIcons/Demon_Edge_icon.webp'
 import desolator from '../images/ItemIcons/Desolator_icon.webp'
 import diffusal_blade from '../images/ItemIcons/Diffusal_Blade_1_icon.webp'
+import disperser from '../images/ItemIcons/Disperser_icon.webp'
 import divine_rapier from '../images/ItemIcons/Divine_Rapier_icon.webp'
+import doubloon from '../images/ItemIcons/Doubloon_29_icon.webp'
 import dragon_lance from '../images/ItemIcons/Dragon_Lance_icon.webp'
 import dragon_scale from '../images/ItemIcons/Dragon_Scale_icon.webp'
 import drum_of_endurance from '../images/ItemIcons/Drum_of_Endurance_icon.webp'
+import duelist_gloves from '../images/ItemIcons/Duelist_Gloves_icon.webp'
 import dust_of_appearance from '../images/ItemIcons/Dust_of_Appearance_icon.webp'
 import eaglesong from '../images/ItemIcons/Eaglesong_icon.webp'
 import echo_sabre from '../images/ItemIcons/Echo_Sabre_icon.webp'
 import elixir from '../images/ItemIcons/Elixir_1_icon.webp'
 import elven_tunic from '../images/ItemIcons/Elven_Tunic_icon.webp'
+import enchanted_mango from '../images/ItemIcons/Enchanted_Mango_icon.webp'
 import enchanted_quiver from '../images/ItemIcons/Enchanted_Quiver_icon.webp'
 import energy_booster from '../images/ItemIcons/Energy_Booster_icon.webp'
 import essence_ring from '../images/ItemIcons/Essence_Ring_icon.webp'
@@ -80,7 +91,8 @@ import ethereal_blade from '../images/ItemIcons/Ethereal_Blade_icon.webp'
 import euls_scepter_of_divinity from '../images/ItemIcons/Eul%27s_Scepter_of_Divinity_icon.webp'
 import ex_machina from '../images/ItemIcons/Ex_Machina_icon.webp'
 import eye_of_skadi from '../images/ItemIcons/Eye_of_Skadi_icon.webp'
-import faded_broach from '../images/ItemIcons/Faded_Broach_icon_29.webp'
+import eye_of_vizier from '../images/ItemIcons/Eye_of_the_Vizier_icon.webp'
+import faded_broach from '../images/ItemIcons/Faded_Broach_icon.webp'
 import fae_grenade from '../images/ItemIcons/Fae_Grenade_icon.webp'
 import faerie_fire from '../images/ItemIcons/Faerie_Fire_icon.webp'
 import fairys_trinket from '../images/ItemIcons/Fairy%27s_Trinket_icon.webp'
@@ -98,12 +110,17 @@ import giants_ring from '../images/ItemIcons/Giant%27s_Ring_icon.webp'
 import gleipnir from '../images/ItemIcons/Gleipnir_icon.webp'
 import glimmer_cape from '../images/ItemIcons/Glimmer_Cape_icon.webp'
 import gloves_of_haste from '../images/ItemIcons/Gloves_of_Haste_icon.webp'
+import gossamer_cape from '../images/ItemIcons/Gossamer_Cape_icon.webp'
 import greater_faerie_fire from '../images/ItemIcons/Greater_Faerie_Fire_icon.webp'
+import great_healing_lotus from '../images/ItemIcons/Great_Healing_Lotus_icon.webp'
+import greater_healing_lotus from '../images/ItemIcons/Greater_Healing_Lotus_icon.webp'
 import grove_bow from '../images/ItemIcons/Grove_Bow_icon.webp'
 import guardian_greaves from '../images/ItemIcons/Guardian_Greaves_icon.webp'
 import hand_of_midas from '../images/ItemIcons/Hand_of_Midas_icon.webp'
+import harpoon from '../images/ItemIcons/Harpoon_icon.webp'
 import havoc_hammer from '../images/ItemIcons/Havoc_Hammer_icon.webp'
 import headdress from '../images/ItemIcons/Headdress_icon.webp'
+import healing_lotus from '../images/ItemIcons/Healing_Lotus_icon.webp'
 import healing_salve from '../images/ItemIcons/Healing_Salve_icon.webp'
 import heart_of_tarrasque from '../images/ItemIcons/Heart_of_Tarrasque_icon.webp'
 import heavens_halberd from '../images/ItemIcons/Heaven%27s_Halberd_icon.webp'
@@ -125,6 +142,9 @@ import javelin from '../images/ItemIcons/Javelin_icon.webp'
 import kaya_and_sange from '../images/ItemIcons/Kaya_and_Sange_icon.webp'
 import kaya from '../images/ItemIcons/Kaya_icon.webp'
 import keen_optic from '../images/ItemIcons/Keen_Optic_icon.webp'
+import khanda from '../images/ItemIcons/Khanda_icon.webp'
+import lance_of_pursuit from '../images/ItemIcons/Lance_of_Pursuit_icon.webp'
+import light_collector from '../images/ItemIcons/Light_Collector_icon.webp'
 import linkens_sphere from '../images/ItemIcons/Linken%27s_Sphere_icon.webp'
 import lotus_orb from '../images/ItemIcons/Lotus_Orb_icon.webp'
 import maelstrom from '../images/ItemIcons/Maelstrom_icon.webp'
@@ -135,6 +155,7 @@ import magic_wand from '../images/ItemIcons/Magic_Wand_icon.webp'
 import mango_tree from '../images/ItemIcons/Mango_Tree_icon.webp'
 import manta_style from '../images/ItemIcons/Manta_Style_icon.webp'
 import mantle_of_intelligence from '../images/ItemIcons/Mantle_of_Intelligence_icon.webp'
+import martyrs_plate from '../images/ItemIcons/Martyr%27s_Plate_icon.webp'
 import mask_of_madness from '../images/ItemIcons/Mask_of_Madness_icon.webp'
 import medallion_of_courage from '../images/ItemIcons/Medallion_of_Courage_icon.webp'
 import mekansm from '../images/ItemIcons/Mekansm_icon.webp'
@@ -143,6 +164,7 @@ import mind_breaker from '../images/ItemIcons/Mind_Breaker_icon.webp'
 import minotaur_horn from '../images/ItemIcons/Minotaur_Horn_icon.webp'
 import mirror_shield from '../images/ItemIcons/Mirror_Shield_icon.webp'
 import mithril_hammer from '../images/ItemIcons/Mithril_Hammer_icon.webp'
+import mjollnir from '../images/ItemIcons/Mjollnir_icon.webp'
 import monkey_king_bar from '../images/ItemIcons/Monkey_King_Bar_icon.webp'
 import moon_shard from '../images/ItemIcons/Moon_Shard_icon.webp'
 import morbid_mask from '../images/ItemIcons/Morbid_Mask_icon.webp'
@@ -150,6 +172,7 @@ import mystic_staff from '../images/ItemIcons/Mystic_Staff_icon.webp'
 import necronomicon_1 from '../images/ItemIcons/Necronomicon_1_icon.webp'
 import necronomicon_2 from '../images/ItemIcons/Necronomicon_2_icon.webp'
 import necronomicon_3 from '../images/ItemIcons/Necronomicon_3_icon.webp'
+import nemesis_curse from '../images/ItemIcons/Nemesis_Curse_icon.webp'
 import nether_shawl from '../images/ItemIcons/Nether_Shawl_icon.webp'
 import ninja_gear from '../images/ItemIcons/Ninja_Gear_icon.webp'
 import null_talisman from '../images/ItemIcons/Null_Talisman_icon.webp'
@@ -157,20 +180,25 @@ import nullifier from '../images/ItemIcons/Nullifier_icon.webp'
 import oblivion_staff from '../images/ItemIcons/Oblivion_Staff_icon.webp'
 import observer_and_sentry_ward from '../images/ItemIcons/Observer_and_Sentry_Wards_1_icon.webp'
 import observer_ward from '../images/ItemIcons/Observer_Ward_icon.webp'
+import occult_braclet from '../images/ItemIcons/Occult_Bracelet_icon.webp'
 import ocean_heart from '../images/ItemIcons/Ocean_Heart_icon.webp'
 import octarine_core from '../images/ItemIcons/Octarine_Core_icon.webp'
 import ogre_axe from '../images/ItemIcons/Ogre_Axe_icon.webp'
+import ogre_seal_totem from '../images/ItemIcons/Ogre_Seal_Totem_icon.webp'
 import orb_of_corrosion from '../images/ItemIcons/Orb_of_Corrosion_icon.webp'
 import orb_of_destruction from '../images/ItemIcons/Orb_of_Destruction_icon.webp'
 import orb_of_venom from '../images/ItemIcons/Orb_of_Venom_icon.webp'
 import orchid_malevolence from '../images/ItemIcons/Orchid_Malevolence_icon.webp'
 import overwhelming_blink from '../images/ItemIcons/Overwhelming_Blink_icon.webp'
 import paladin_sword from '../images/ItemIcons/Paladin_Sword_icon.webp'
+import parasma from '../images/ItemIcons/Parasma_icon.webp'
+import pavice from '../images/ItemIcons/Pavise_icon.webp'
 import pentaedged_sword from '../images/ItemIcons/Penta-Edged_Sword_icon.webp'
 import perseverance from '../images/ItemIcons/Perseverance_icon.webp'
 import phase_boots from '../images/ItemIcons/Phase_Boots_icon.webp'
 import philosophers_stone from '../images/ItemIcons/Philosopher%27s_Stone_icon.webp'
 import phoenix_ash from '../images/ItemIcons/Phoenix_Ash_icon.webp'
+import phylactery from '../images/ItemIcons/Phylactery_icon.webp'
 import pig_pole from '../images/ItemIcons/Pig_Pole_icon.webp'
 import pipe_of_insight from '../images/ItemIcons/Pipe_of_Insight_icon.webp'
 import pirate_hat from '../images/ItemIcons/Pirate_Hat_icon.webp'
@@ -187,9 +215,12 @@ import quelling_blade from '../images/ItemIcons/Quelling_Blade_icon.webp'
 import quickening_charm from '../images/ItemIcons/Quickening_Charm_icon.webp'
 import quicksivler_amulet from '../images/ItemIcons/Quicksilver_Amulet_icon.webp'
 import radiance from '../images/ItemIcons/Radiance_29_icon.webp'
+import rattlecage from '../images/ItemIcons/Rattlecage_icon.webp'
 import reaver from '../images/ItemIcons/Reaver_icon.webp'
 import refresher_orb from '../images/ItemIcons/Refresher_Orb_icon.webp'
+import refresher_shard from '../images/ItemIcons/Refresher_Shard_icon.webp'
 import repair_kit from '../images/ItemIcons/Repair_Kit_icon.webp'
+import recipe from '../images/ItemIcons/Default_recipe_icon.webp'
 import revenants_brooch from '../images/ItemIcons/Revenant%27s_Brooch_icon.webp'
 import ring_of_aquila from '../images/ItemIcons/Ring_of_Aquila_29_icon.webp'
 import ring_of_basilius from '../images/ItemIcons/Ring_of_Basilius_29_icon.webp'
@@ -199,13 +230,16 @@ import ring_of_regen from '../images/ItemIcons/Ring_of_Regen_icon.webp'
 import ring_of_tarrasque from '../images/ItemIcons/Ring_of_Tarrasque_icon.webp'
 import robe_of_the_magi from '../images/ItemIcons/Robe_of_the_Magi_icon.webp'
 import rod_of_atos from '../images/ItemIcons/Rod_of_Atos_icon.webp'
+import roshans_banner from '../images/ItemIcons/Roshan%27s_Banner_icon.webp'
 import royal_jelly from '../images/ItemIcons/Royal_Jelly_1_icon.webp'
 import sacred_relic from '../images/ItemIcons/Sacred_Relic_icon.webp'
+import safty_bubble from '../images/ItemIcons/Safety_Bubble_icon.webp'
 import sages_mask from '../images/ItemIcons/Sage%27s_Mask_icon.webp'
 import sange_and_yasha from '../images/ItemIcons/Sange_and_Yasha_icon.webp'
 import sange from '../images/ItemIcons/Sange_icon.webp'
 import satanic from '../images/ItemIcons/Satanic_icon.webp'
 import scythe_of_vyse from '../images/ItemIcons/Scythe_of_Vyse_icon.webp'
+import seeds_of_serenity from '../images/ItemIcons/Seeds_of_Serenity_icon.webp'
 import seer_stone from '../images/ItemIcons/Seer_Stone_icon.webp'
 import sentry_ward from '../images/ItemIcons/Sentry_Ward_icon.webp'
 import shadow_amulet from '../images/ItemIcons/Shadow_Amulet_icon.webp'
@@ -213,11 +247,13 @@ import shadow_blade from '../images/ItemIcons/Shadow_Blade_icon.webp'
 import shivas_guard from '../images/ItemIcons/Shiva%27s_Guard_icon.webp'
 import silver_edge from '../images/ItemIcons/Silver_Edge_icon.webp'
 import skull_basher from '../images/ItemIcons/Skull_Basher_icon.webp'
-import slippers_of_agiliry from '../images/ItemIcons/Slippers_of_Agility_icon.webp'
+import slippers_of_agility from '../images/ItemIcons/Slippers_of_Agility_icon.webp'
 import smoke_of_deceit from '../images/ItemIcons/Smoke_of_Deceit_icon.webp'
 import solar_crest from '../images/ItemIcons/Solar_Crest_icon.webp'
 import soul_booster from '../images/ItemIcons/Soul_Booster_icon.webp'
 import soul_ring from '../images/ItemIcons/Soul_Ring_icon.webp'
+import spark_of_courage from '../images/ItemIcons/Spark_of_Courage_29_icon.webp'
+import specialists_array from '../images/ItemIcons/Specialist%27s_Array_icon.webp'
 import spell_prism from '../images/ItemIcons/Spell_Prism_icon.webp'
 import spider_legs from '../images/ItemIcons/Spider_Legs_icon.webp'
 import spirit_vessel from '../images/ItemIcons/Spirit_Vessel_icon.webp'
@@ -230,7 +266,13 @@ import shared_tango from '../images/ItemIcons/Tango_29_icon.webp'
 import talisman_of_evasion from '../images/ItemIcons/Talisman_of_Evasion_icon.webp'
 import tango from '../images/ItemIcons/Tango_icon.webp'
 import telescope from '../images/ItemIcons/Telescope_icon.webp'
+import tiara_of_selemene from '../images/ItemIcons/tiara_of_selemene'
 import the_leveller from '../images/ItemIcons/The_Leveller_icon.webp'
+import tier_1_token from '../images/ItemIcons/Tier_1_Token_icon.webp'
+import tier_2_token from '../images/ItemIcons/Tier_2_Token_icon.webp'
+import tier_3_token from '../images/ItemIcons/Tier_3_Token_icon.webp'
+import tier_4_token from '../images/ItemIcons/Tier_4_Token_icon.webp'
+import tier_5_token from '../images/ItemIcons/Tier_5_Token_icon.webp'
 import third_eye from '../images/ItemIcons/Third_Eye_icon.webp'
 import timeless_relic from '../images/ItemIcons/Timeless_Relic_icon.webp'
 import titan_sliver from '../images/ItemIcons/Titan_Sliver_icon.webp'
@@ -243,15 +285,18 @@ import trident from '../images/ItemIcons/Trident_icon.webp'
 import trusty_shovel from '../images/ItemIcons/Trusty_Shovel_icon.webp'
 import tumblers_toy from '../images/ItemIcons/Tumbler%27s_Toy_icon.webp'
 import ultimate_orb from '../images/ItemIcons/Ultimate_Orb_icon.webp'
+import unwavering_condition from '../images/ItemIcons/Unwavering_Condition_icon.webp'
 import urn_of_shadows from '../images/ItemIcons/Urn_of_Shadows_icon.webp'
 import vambrace from '../images/ItemIcons/Vambrace_29_icon.webp'
 import vampire_fangs from '../images/ItemIcons/Vampire_Fangs_icon.webp'
 import vanguard from '../images/ItemIcons/Vanguard_icon.webp'
 import veil_of_discord from '../images/ItemIcons/Veil_of_Discord_icon.webp'
+import vindicators_axe from '../images/ItemIcons/Vindicator%27s_Axe_icon.webp'
 import vitality_booster from '../images/ItemIcons/Vitality_Booster_icon.webp'
 import vladmirs_offering from '../images/ItemIcons/Vladmir%27s_Offering_icon.webp'
 import void_stone from '../images/ItemIcons/Void_Stone_icon.webp'
 import voodoo_mask from '../images/ItemIcons/Voodoo_Mask_icon.webp'
+import whisper_of_the_dread from '../images/ItemIcons/Whisper_of_the_Dread_icon.webp'
 import wind_lace from '../images/ItemIcons/Wind_Lace_icon.webp'
 import wind_walker from '../images/ItemIcons/Wind_Waker_icon.webp'
 import witch_blade from '../images/ItemIcons/Witch_Blade_icon.webp'
@@ -265,1432 +310,1547 @@ import yasha from '../images/ItemIcons/Yasha_icon.webp'
 const items = [
     {
         name: 'Town Portal Scroll',
-        itemId: ,
+        itemId: 46,
         img: town_portal_scroll,
     }, 
     {
         name: 'Blood Grenade',
-        itemId: ,
-        img: blood,
+        itemId: 1123,
+        img: blood_grenade,
     },
     {
         name: 'Clarity',
-        itemId: ,
-        img: ,
+        itemId: 38,
+        img: clarity,
     },
     {
         name: 'Enchanted Mango',
-        itemId: ,
-        img: ,
+        itemId: 216,
+        img: enchanted_mango,
     },
     {
         name: 'Faerie Fire',
-        itemId: ,
-        img: ,
+        itemId: 237,
+        img: faerie_fire,
     },
     {
         name: 'Tango',
-        itemId: ,
-        img: ,
+        itemId: 44,
+        img: tango,
+    },
+    {
+        name: 'Shared Tango',
+        itemId: 241,
+        img: shared_tango,
     },
     {
         name: 'Dust of Appearance',
-        itemId: ,
-        img: ,
+        itemId: 40,
+        img: dust_of_appearance,
     },
     {
         name: 'Bottle',
-        itemId: ,
-        img: ,
+        itemId: 41,
+        img: bottle,
     },
     {
         name: 'Observer Ward',
-        itemId: ,
-        img: ,
+        itemId: 42,
+        img: observer_ward,
     },
     {
         name: 'Sentry Ward',
-        itemId: ,
-        img: ,
+        itemId: 43,
+        img: sentry_ward,
+    },
+    {
+        name: 'Observer and Sentry Ward',
+        itemId: 218,
+        img: observer_and_sentry_ward,
     },
     {
         name: 'Iron Branch',
-        itemId: ,
-        img: ,
+        itemId: 16,
+        img: iron_branch,
     },
     {
         name: 'Gauntlets of Strength',
-        itemId: ,
-        img: ,
+        itemId: 13,
+        img: gauntlets_of_strength,
     },
     {
         name: 'Mantle of Intelligence',
-        itemId: ,
-        img: ,
+        itemId: 15,
+        img: mantle_of_intelligence,
     },
     {
         name: 'Slippers of Agility',
-        itemId: ,
-        img: ,
+        itemId: 14,
+        img: slippers_of_agility,
     },
     {
         name: 'Circlet',
-        itemId: ,
-        img: ,
+        itemId: 20,
+        img: circlet,
     },
     {
         name: 'Band of Elvenskin',
-        itemId: ,
-        img: ,
+        itemId: 18,
+        img: band_of_elvenskin,
     },
     {
         name: 'Belt of Strength',
-        itemId: ,
-        img: ,
+        itemId: 17,
+        img: belt_of_strength,
     },
     {
         name: 'Robe of the Magi',
-        itemId: ,
-        img: ,
+        itemId: 19,
+        img: robe_of_the_magi,
     },
     {
         name: 'Crown',
-        itemId: ,
-        img: ,
+        itemId: 261,
+        img: crown,
     },
     {
         name: 'Blade of Alacrity',
-        itemId: ,
-        img: ,
+        itemId: 22,
+        img: blade_of_alacrity,
     },
     {
         name: 'Ogre Axe',
-        itemId: ,
-        img: ,
+        itemId: 21,
+        img: ogre_axe,
     },
     {
         name: 'Staff of Wizardry',
-        itemId: ,
-        img: ,
+        itemId: 23,
+        img: staff_of_wizardry,
     },
     {
         name: 'Quelling Blade',
-        itemId: ,
-        img: ,
+        itemId: 11,
+        img: quelling_blade,
     },
     {
         name: 'Ring of Protection',
-        itemId: ,
-        img: ,
+        itemId: 12,
+        img: ring_of_protection,
     },
     {
         name: 'Infused Raindrops',
-        itemId: ,
-        img: ,
+        itemId: 265,
+        img: infused_raindrops,
     },
     {
         name: 'Orb of Venom',
-        itemId: ,
-        img: ,
+        itemId: 181,
+        img: orb_of_venom,
     },
     {
         name: 'Blight Stone',
-        itemId: ,
-        img: ,
+        itemId: 240,
+        img: blight_stone,
     },
     {
         name: 'Blades of Attack',
-        itemId: ,
-        img: ,
+        itemId: 2,
+        img: blades_of_attack,
     },
     {
         name: 'Gloves of Haste',
-        itemId: ,
-        img: ,
+        itemId: 25,
+        img: gloves_of_haste,
     },
     {
         name: 'Chainmail',
-        itemId: ,
-        img: ,
+        itemId: 4,
+        img: chainmail,
     },
     {
         name: 'Helm of Iron Will',
-        itemId: ,
-        img: ,
+        itemId: 6,
+        img: helm_of_iron_will,
     },
     {
         name: 'Javelin',
-        itemId: ,
-        img: ,
+        itemId: 7,
+        img: javelin,
     },
     {
         name: 'Blitz Knuckles',
-        itemId: ,
-        img: ,
+        itemId: 485,
+        img: blitz_knuckles,
     },
     {
         name: 'Broadsword',
-        itemId: ,
-        img: ,
+        itemId: 3,
+        img: broadsword,
     },
     {
         name: 'Claymore',
-        itemId: ,
-        img: ,
+        itemId: 5,
+        img: claymore,
     },
     {
-        name: 'Mythril Hammer',
-        itemId: ,
-        img: ,
+        name: 'Mithril Hammer',
+        itemId: 8,
+        img: mithril_hammer,
     },
     {
         name: 'Ring of Regen',
-        itemId: ,
-        img: ,
+        itemId: 27,
+        img: ring_of_regen,
     },
     {
         name: "Sage's Mask",
-        itemId: ,
-        img: ,
+        itemId: 28,
+        img: sages_mask,
     },
     {
         name: 'Magic Stick',
-        itemId: ,
-        img: ,
+        itemId: 34,
+        img: magic_stick,
     },
     {
         name: 'Fluffy Hat',
-        itemId: ,
-        img: ,
+        itemId: 593,
+        img: fluffy_hat,
     },
     {
         name: 'Wind Lace',
-        itemId: ,
-        img: ,
+        itemId: 244,
+        img: wind_lace,
     },
     {
         name: 'Boots of Speed',
-        itemId: ,
-        img: ,
+        itemId: 29,
+        img: boots_of_speed,
     },
     {
         name: 'Ring of Health',
-        itemId: ,
-        img: ,
+        itemId: 56,
+        img: ring_of_health,
+    },
+    {
+        name: 'Void Stone', 
+        itemId: 57,
+        img: void_stone,
     },
     {
         name: 'Voodoo Mask',
-        itemId: ,
-        img: ,
+        itemId: 473,
+        img: voodoo_mask,
     },
     {
         name: 'Cloak',
-        itemId: ,
-        img: ,
+        itemId: 31,
+        img: cloak,
     },
     {
         name: 'Gem of True Sight',
-        itemId: ,
-        img: ,
+        itemId: 30,
+        img: gem_of_true_sight,
     },
     {
         name: 'Morbid Mask',
-        itemId: ,
-        img: ,
+        itemId: 26,
+        img: morbid_mask,
     },
     {
         name: 'Shadow Amulet',
-        itemId: ,
-        img: ,
+        itemId: 215,
+        img: shadow_amulet,
     },
     {
         name: 'Ghost Scepter',
-        itemId: ,
-        img: ,
+        itemId: 37,
+        img: ghost_scepter,
     },
     {
         name: 'Ring of Tarrasque',
-        itemId: ,
-        img: ,
+        itemId: 279,
+        img: ring_of_tarrasque,
     },
     {
         name: 'Tiara of Selemene',
-        itemId: ,
-        img: ,
+        itemId: 1802,
+        img: tiara_of_selemene,
     },
     {
         name: 'Blink Dagger',
-        itemId: ,
-        img: ,
+        itemId: 1,
+        img: blink_dagger,
     },
     {
         name: 'Energy Booster',
-        itemId: ,
-        img: ,
+        itemId: 59,
+        img: energy_booster,
     },
     {
         name: 'Vitality Booster',
-        itemId: ,
-        img: ,
+        itemId: 61,
+        img: vitality_booster,
     },
     {
         name: 'Point Booster',
-        itemId: ,
-        img: ,
+        itemId: 60,
+        img: point_booster,
     },
     {
         name: 'Cornucopia',
-        itemId: ,
-        img: ,
+        itemId: 1125,
+        img: cornucopia,
     },
     {
         name: 'Talisman of Evasion',
-        itemId: ,
-        img: ,
+        itemId: 76,
+        img: talisman_of_evasion,
     },
     {
         name: 'Platemail',
-        itemId: ,
-        img: ,
+        itemId: 9,
+        img: platemail,
     },
     {
         name: 'Hyperstone',
-        itemId: ,
-        img: ,
+        itemId: 55,
+        img: hyperstone,
     },
     {
         name: 'Demon Edge',
-        itemId: ,
-        img: ,
+        itemId: 51,
+        img: demon_edge,
     },
     {
         name: 'Eaglesong',
-        itemId: ,
-        img: ,
+        itemId: 52,
+        img: eaglesong,
     },
     {
         name: 'Mystic Staff',
-        itemId: ,
-        img: ,
+        itemId: 58,
+        img: mystic_staff,
     },
     {
         name: 'Reaver',
-        itemId: ,
-        img: ,
+        itemId: 53,
+        img: reaver,
     },
     {
         name: 'Ultimate Orb',
-        itemId: ,
-        img: ,
+        itemId: 24,
+        img: ultimate_orb,
     },
     {
         name: 'Magic Wand',
-        itemId: ,
-        img: ,
+        itemId: 36,
+        img: magic_wand,
     },
     {
         name: 'Bracer',
-        itemId: ,
-        img: ,
+        itemId: 73,
+        img: bracer,
     },
     {
         name: 'Null Talisman',
-        itemId: ,
-        img: ,
+        itemId: 77,
+        img: null_talisman,
     },
     {
         name: 'Wraith Band',
-        itemId: ,
-        img: ,
+        itemId: 75,
+        img: wraith_band,
     },
     {
         name: 'Soul Ring',
-        itemId: ,
-        img: ,
+        itemId: 178,
+        img: soul_ring,
     },
     {
         name: 'Orb of Corrosion',
-        itemId: ,
-        img: ,
+        itemId: 569,
+        img: orb_of_corrosion,
     },
     {
         name: 'Falcon Blade',
-        itemId: ,
-        img: ,
+        itemId: 596,
+        img: falcon_blade,
     },
     {
         name: 'Perseverance',
-        itemId: ,
-        img: ,
+        itemId: 69,
+        img: perseverance,
     },
     {
         name: 'Power Treads',
-        itemId: ,
-        img: ,
+        itemId: 63,
+        img: power_treads,
     },
     {
         name: 'Phase Boots',
-        itemId: ,
-        img: ,
+        itemId: 50,
+        img: phase_boots,
     },
     {
         name: 'Oblivion Staff',
-        itemId: ,
-        img: ,
+        itemId: 67,
+        img: oblivion_staff,
     },
     {
         name: 'Mask of Madness',
-        itemId: ,
-        img: ,
+        itemId: 172,
+        img: mask_of_madness,
     },
     {
         name: 'Hand of Midas',
-        itemId: ,
-        img: ,
+        itemId: 65,
+        img: hand_of_midas,
     },
     {
         name: 'Boots of Travel',
-        itemId: ,
-        img: ,
+        itemId: 48,
+        img: boots_of_travel_1,
+    },
+    {
+        name: 'Boots of Travel 2',
+        itemId: 220,
+        img: boots_of_travel_2,
     },
     {
         name: 'Helm of the Dominator',
-        itemId: ,
-        img: ,
+        itemId: 164,
+        img: helm_of_the_dominator,
     },
     {
         name: 'Moon Shard',
-        itemId: ,
-        img: ,
+        itemId: 247,
+        img: moon_shard,
     },
     {
         name: 'Helm of the Overlord',
-        itemId: ,
-        img: ,
+        itemId: 635,
+        img: helm_of_the_overlord,
     },
     {
         name: 'Buckler',
-        itemId: ,
-        img: ,
+        itemId: 86,
+        img: buckler,
     },
     {
         name: 'Headdress',
-        itemId: ,
-        img: ,
+        itemId: 94,
+        img: headdress,
     },
     {
         name: 'Ring of Basilius',
-        itemId: ,
-        img: ,
+        itemId: 88,
+        img: ring_of_basilius,
     },
     {
         name: 'Urn of Shadows',
-        itemId: ,
-        img: ,
+        itemId: 93,
+        img: urn_of_shadows,
     },
     {
         name: 'Tranquill Boots',
-        itemId: ,
-        img: ,
+        itemId: 214,
+        img: tranquil_boots,
     },
     {
         name: 'Arcane Boots',
-        itemId: ,
-        img: ,
+        itemId: 180,
+        img: arcane_boots,
     },
     {
         name: 'Pavise',
-        itemId: ,
-        img: ,
+        itemId: 1128,
+        img: pavice,
     },
     {
         name: 'Drum of Endurance',
-        itemId: ,
-        img: ,
+        itemId: 185,
+        img: drum_of_endurance,
     },
     {
         name: 'Mekansm',
-        itemId: ,
-        img: ,
+        itemId: 79,
+        img: mekansm,
     },
     {
         name: "Vladmir's Offering",
-        itemId: ,
-        img: ,
+        itemId: 81,
+        img: vladmirs_offering,
     },
     {
         name: 'Holy Locket',
-        itemId: ,
-        img: ,
+        itemId: 269,
+        img: holy_locket,
     },
     {
         name: 'Spirit Vessel',
-        itemId: ,
-        img: ,
+        itemId: 267,
+        img: spirit_vessel,
     },
     {
         name: 'Pipe of Insight',
-        itemId: ,
-        img: ,
+        itemId: 90,
+        img: pipe_of_insight,
     },
     {
         name: 'Boots of Bearing',
-        itemId: ,
-        img: ,
+        itemId: 931,
+        img: boots_of_bearing,
     },
     {
         name: 'Guardian Greaves',
-        itemId: ,
-        img: ,
+        itemId: 231,
+        img: guardian_greaves,
     },
     {
         name: 'Parasma',
-        itemId: ,
-        img: ,
+        itemId: 1806,
+        img: parasma,
     },
     {
         name: 'Veil of Discord',
-        itemId: ,
-        img: ,
+        itemId: 190,
+        img: veil_of_discord,
     },
     {
         name: 'Glimmer Cape',
-        itemId: ,
-        img: ,
+        itemId: 254,
+        img: glimmer_cape,
     },
     {
         name: 'Force Staff',
-        itemId: ,
-        img: ,
+        itemId: 102,
+        img: force_staff,
     },
     {
         name: 'Rod of Atos',
-        itemId: ,
-        img: ,
+        itemId: 206,
+        img: rod_of_atos,
     },
     {
         name: 'Aether Lens',
-        itemId: ,
-        img: ,
+        itemId: 232,
+        img: aether_lens,
     },
     {
         name: "Eul's Scepter of Devinity",
-        itemId: ,
-        img: ,
+        itemId: 100,
+        img: euls_scepter_of_divinity,
     },
     {
         name: 'Solar Crest',
-        itemId: ,
-        img: ,
+        itemId: 229,
+        img: solar_crest,
     },
     {
         name: 'Witch Blade',
-        itemId: ,
-        img: ,
+        itemId: 534,
+        img: witch_blade,
     },
     {
         name: 'Dagon I',
-        itemId: ,
-        img: ,
+        itemId: 104,
+        img: dagonI,
     },
     {
         name: 'Dagon II',
-        itemId: ,
-        img: ,
+        itemId: 201,
+        img: dagonII,
     },
     {
         name: 'Dagon III',
-        itemId: ,
-        img: ,
+        itemId: 202,
+        img: dagonIII,
     },
     {
         name: 'Dagon IV',
-        itemId: ,
-        img: ,
+        itemId: 203,
+        img: dagonIV,
     },
     {
         name: 'Dagon V',
-        itemId: ,
-        img: ,
+        itemId: 204,
+        img: dagonV,
     },
     {
         name: 'Orchid Malevolence',
-        itemId: ,
-        img: ,
+        itemId: 98,
+        img: orchid_malevolence,
     },
     {
         name: "Aghanim's Scepter",
-        itemId: ,
-        img: ,
+        itemId: 108,
+        img: aghanims_scepter,
     },
     {
         name: 'Octarine Core',
-        itemId: ,
-        img: ,
+        itemId: 235,
+        img: octarine_core,
     },
     {
         name: 'Refresher Orb',
-        itemId: ,
-        img: ,
+        itemId: 110,
+        img: refresher_orb,
     },
     {
         name: 'Scythe of Vyse',
-        itemId: ,
-        img: ,
+        itemId: 96,
+        img: scythe_of_vyse,
     },
     {
         name: 'Gleipnir',
-        itemId: ,
-        img: ,
+        itemId: 1466,
+        img: gleipnir,
     },
     {
-        name: 'Wind Walker',
-        itemId: ,
-        img: ,
+        name: 'Wind Waker',
+        itemId: 610,
+        img: wind_walker,
     },
     {
         name: 'Vanguard',
-        itemId: ,
-        img: ,
+        itemId: 125,
+        img: vanguard,
     },
     {
         name: 'Blade Mail',
-        itemId: ,
-        img: ,
+        itemId: 127,
+        img: blade_mail,
     },
     {
         name: 'Aeon Disk',
-        itemId: ,
-        img: ,
+        itemId: 256,
+        img: aeon_disk,
     },
     {
         name: 'Soul Booster',
-        itemId: ,
-        img: ,
+        itemId: 129,
+        img: soul_booster,
     },
     {
         name: 'Eternal Shroud',
-        itemId: ,
-        img: ,
+        itemId: 692,
+        img: eternal_shroud,
     },
     {
         name: 'Crimson Guard',
-        itemId: ,
-        img: ,
+        itemId: 242,
+        img: crimson_guard,
     },
     {
         name: 'Lotus Orb',
-        itemId: ,
-        img: ,
+        itemId: 226,
+        img: lotus_orb,
     },
     {
         name: 'Black King Bar',
-        itemId: ,
-        img: ,
+        itemId: 116,
+        img: black_king_bar,
     },
     {
         name: 'Bloodstone',
-        itemId: ,
-        img: ,
+        itemId: 121,
+        img: bloodstone,
     },
     {
         name: 'Hurricane Pike',
-        itemId: ,
-        img: ,
+        itemId: 263,
+        img: hurricane_pike,
     },
     {
         name: 'Manta Style',
-        itemId: ,
-        img: ,
+        itemId: 147,
+        img: manta_style,
     },
     {
         name: "Linken's Sphere",
-        itemId: ,
-        img: ,
+        itemId: 123,
+        img: linkens_sphere,
     },
     {
         name: 'Assault Cuirass',
-        itemId: ,
-        img: ,
+        itemId: 112,
+        img: assault_cuirass,
     },
     {
         name: "Shiva's Guard",
-        itemId: ,
-        img: ,
+        itemId: 119,
+        img: shivas_guard,
     },
     {
         name: 'Heart of Tarrasque',
-        itemId: ,
-        img: ,
+        itemId: 114,
+        img: heart_of_tarrasque,
     },
     {
         name: 'Crystalys',
-        itemId: ,
-        img: ,
+        itemId: 149,
+        img: crystalys,
     },
     {
         name: 'Armlet of Mordiggian',
-        itemId: ,
-        img: ,
+        itemId: 151,
+        img: armlet_of_mordiggain,
     },
     {
         name: 'Meteor Hammer',
-        itemId: ,
-        img: ,
+        itemId: 223,
+        img: meteor_hammer,
     },
     {
         name: 'Skull Basher',
-        itemId: ,
-        img: ,
+        itemId: 143,
+        img: skull_basher,
     },
     {
         name: 'Shadow Blade',
-        itemId: ,
-        img: ,
+        itemId: 152,
+        img: shadow_blade,
     },
     {
         name: 'Desolator',
-        itemId: ,
-        img: ,
+        itemId: 168,
+        img: desolator,
     },
     {
         name: 'Battle Fury',
-        itemId: ,
-        img: ,
+        itemId: 145,
+        img: battle_fury,
     },
     {
         name: 'Nullifier',
-        itemId: ,
-        img: ,
+        itemId: 225,
+        img: nullifier,
     },
     {
         name: 'Monkey King Bar',
-        itemId: ,
-        img: ,
+        itemId: 135,
+        img: monkey_king_bar,
     },
     {
         name: 'Radiance',
-        itemId: ,
-        img: ,
+        itemId: 137,
+        img: radiance,
     },
     {
         name: "Revenant's Brooch",
-        itemId: ,
-        img: ,
+        itemId: 910,
+        img: revenants_brooch,
     },
     {
         name: 'Khanda',
-        itemId: ,
-        img: ,
+        itemId: 1808,
+        img: khanda,
     },
     {
         name: 'Daedalus',
-        itemId: ,
-        img: ,
+        itemId: 141,
+        img: daedalus,
     },
     {
-        name: 'Etherral Blade',
-        itemId: ,
-        img: ,
+        name: 'Ethereal Blade',
+        itemId: 176,
+        img: ethereal_blade,
     },
     {
         name: 'Butterfly',
-        itemId: ,
-        img: ,
+        itemId: 139,
+        img: butterfly,
     },
     {
         name: 'Silver Edge',
-        itemId: ,
-        img: ,
+        itemId: 249,
+        img: silver_edge,
     },
     {
         name: 'Divine Rapier',
-        itemId: ,
-        img: ,
+        itemId: 133,
+        img: divine_rapier,
     },
     {
         name: 'Disperser',
-        itemId: ,
-        img: ,
+        itemId: 1097,
+        img: disperser,
     },
     {
         name: 'Abyssal Blade',
-        itemId: ,
-        img: ,
+        itemId: 208,
+        img: abyssal_blade,
     },
     {
         name: 'Blood Thorn',
-        itemId: ,
-        img: ,
+        itemId: 250,
+        img: bloodthorn,
     },
     {
         name: 'Dragon Lance',
-        itemId: ,
-        img: ,
+        itemId: 236,
+        img: dragon_lance,
     },
     {
         name: 'Kaya',
-        itemId: ,
-        img: ,
+        itemId: 259,
+        img: kaya,
     },
     {
         name: 'Sange',
-        itemId: ,
-        img: ,
+        itemId: 162,
+        img: sange,
     },
     {
         name: 'Yasha',
-        itemId: ,
-        img: ,
+        itemId: 170,
+        img: yasha,
     },
     {
         name: 'Phylactery',
-        itemId: ,
-        img: ,
+        itemId: 1106,
+        img: phylactery,
     },
     {
         name: 'Diffusal Blade',
-        itemId: ,
-        img: ,
+        itemId: 174,
+        img: diffusal_blade,
     },
     {
         name: 'Echo Saber',
-        itemId: ,
-        img: ,
+        itemId: 252,
+        img: echo_sabre,
     },
     {
         name: 'Mage Slayer',
-        itemId: ,
-        img: ,
+        itemId: 598,
+        img: mage_slayer,
     },
     {
         name: 'Maelstrom',
-        itemId: ,
-        img: ,
+        itemId: 166,
+        img: maelstrom,
     },
     {
         name: "Heaven's Halberd",
-        itemId: ,
-        img: ,
+        itemId: 210,
+        img: heavens_halberd,
     },
     {
         name: 'Yasha and Kaya',
-        itemId: ,
-        img: ,
+        itemId: 277,
+        img: yasha_and_kaya,
     },
     {
         name: 'Kaya and Sange',
-        itemId: ,
-        img: ,
+        itemId: 273,
+        img: kaya_and_sange,
     },
     {
         name: 'Sange and Yasha',
-        itemId: ,
-        img: ,
+        itemId: 154,
+        img: sange_and_yasha,
     },
     {
         name: 'Harpoon',
-        itemId: ,
-        img: ,
+        itemId: 939,
+        img: harpoon,
     },
     {
         name: 'Satanic',
-        itemId: ,
-        img: ,
+        itemId: 156,
+        img: satanic,
     },
     {
         name: 'Eye of Skadi',
-        itemId: ,
-        img: ,
+        itemId: 160,
+        img: eye_of_skadi,
     },
     {
         name: 'Mjollnir',
-        itemId: ,
-        img: ,
+        itemId: 158,
+        img: mjollnir,
     },
     {
         name: 'Arcane Blink',
-        itemId: ,
-        img: ,
+        itemId: 604,
+        img: arcane_blink,
     },
     {
         name: 'Overwhelming Blink',
-        itemId: ,
-        img: ,
+        itemId: 600,
+        img: overwhelming_blink,
     },
     {
         name: 'Swift Blink',
-        itemId: ,
-        img: ,
+        itemId: 603,
+        img: swift_blink,
     },
     {
         name: 'Aegis of the Immortal',
-        itemId: ,
-        img: ,
+        itemId: 117,
+        img: aegis_of_the_immortal,
     },
     {
         name: 'Refresher Shard',
-        itemId: ,
-        img: ,
+        itemId: 260,
+        img: refresher_shard,
     },
     {
         name: "Roshan's Banner",
-        itemId: ,
-        img: ,
+        itemId: 1804,
+        img: roshans_banner,
     },
     {
         name: 'Cheese',
-        itemId: ,
-        img: ,
+        itemId: 33,
+        img: cheese,
     },
     {
         name: 'Healing Lotus',
-        itemId: ,
-        img: ,
+        itemId: 4204,
+        img: healing_lotus,
     },
     {
         name: 'Great Healing Lotus',
-        itemId: ,
-        img: ,
+        itemId: 4205,
+        img: great_healing_lotus,
     },
     {
         name: 'Greater Healing Lotus',
-        itemId: ,
-        img: ,
+        itemId: 4206,
+        img: greater_healing_lotus,
     },
     {
         name: "Aghanim's Blessing",
-        itemId: ,
-        img: ,
+        itemId: 271,
+        img: aghanims_scepter,
     },
     {
         name: 'Arcane Ring',
-        itemId: ,
-        img: ,
+        itemId: 349,
+        img: arcane_ring,
     },
     {
         name: 'Broom Handle',
-        itemId: ,
-        img: ,
+        itemId: 355,
+        img: broom_handle,
     },
     {
         name: 'Duelist Gloves',
-        itemId: ,
-        img: ,
+        itemId: 2097,
+        img: duelist_gloves,
     },
     {
         name: 'Faded Broach',
-        itemId: ,
-        img: ,
+        itemId: 375,
+        img: faded_broach,
     },
     {
         name: "Fairy's Trinket",
-        itemId: ,
-        img: ,
+        itemId: 589,
+        img: fairys_trinket,
     },
     {
         name: 'Lance of Pursuit',
-        itemId: ,
-        img: ,
+        itemId: 946,
+        img: lance_of_pursuit,
     },
     {
         name: 'Occult Bracelet',
-        itemId: ,
-        img: ,
+        itemId: 947,
+        img: occult_braclet,
     },
     {
         name: 'Pig Pole',
-        itemId: ,
-        img: ,
+        itemId: 838,
+        img: pig_pole,
     },
     {
         name: 'Royal Jelly',
-        itemId: ,
-        img: ,
+        itemId: 305,
+        img: royal_jelly,
     },
     {
         name: 'Safety Bubble',
-        itemId: ,
-        img: ,
+        itemId: 1157,
+        img: safty_bubble,
     },
     {
         name: 'Seeds of Serenity',
-        itemId: ,
-        img: ,
+        itemId: 945,
+        img: seeds_of_serenity,
     },
     {
         name: 'Spark of Courage',
-        itemId: ,
-        img: ,
+        itemId: 1124,
+        img: spark_of_courage,
     },
     {
         name: 'Trusty Shovel',
-        itemId: ,
-        img: ,
+        itemId: 356,
+        img: trusty_shovel,
     },
     {
         name: 'Bullwhip',
-        itemId: ,
-        img: ,
+        itemId: 680,
+        img: bullwhip,
+    },
+    {
+        name: "Pupil's gift",
+        itemId: 306,
+        img: pupils_gift,
     },
     {
         name: 'Dragon Scale',
-        itemId: ,
-        img: ,
+        itemId: 358,
+        img: dragon_scale,
     },
     {
         name: 'Eye of the Vizier',
-        itemId: ,
-        img: ,
+        itemId: 990,
+        img: eye_of_vizier,
     },
     {
         name: 'Gossamer Cape',
-        itemId: ,
-        img: ,
+        itemId: 2193,
+        img: gossamer_cape,
     },
     {
         name: 'Grove Bow',
-        itemId: ,
-        img: ,
+        itemId: 288,
+        img: grove_bow,
     },
     {
         name: 'Light Collector',
-        itemId: ,
-        img: ,
+        itemId: 1167,
+        img: light_collector,
     },
     {
         name: 'Orb of Destruction',
-        itemId: ,
-        img: ,
+        itemId: 378,
+        img: orb_of_destruction,
     },
     {
         name: "Philosopher's Stone",
-        itemId: ,
-        img: ,
+        itemId: 290,
+        img: philosophers_stone,
     },
     {
         name: "Specialist's Array",
-        itemId: ,
-        img: ,
+        itemId: 1076,
+        img: specialists_array,
     },
     {
         name: 'Vambrace',
-        itemId: ,
-        img: ,
+        itemId: 331,
+        img: vambrace,
     },
     {
         name: 'Vampire Fangs',
-        itemId: ,
-        img: ,
+        itemId: 297,
+        img: vampire_fangs,
     },
     {
         name: 'Whisper of the Dread',
-        itemId: ,
-        img: ,
+        itemId: 1158,
+        img: whisper_of_the_dread,
     },
     {
         name: 'Ceremonial Robe',
-        itemId: ,
-        img: ,
+        itemId: 676,
+        img: ceremonial_robe,
     },
     {
         name: 'Cloak of Flames',
-        itemId: ,
-        img: ,
+        itemId: 574,
+        img: cloak_of_flames,
     },
     {
         name: 'Craggy Coat',
-        itemId: ,
-        img: ,
+        itemId: 298,
+        img: craggy_coat,
     },
     {
         name: 'Dandelion Amulet',
-        itemId: ,
-        img: ,
+        itemId: 2190,
+        img: dandelion_amulet,
     },
     {
         name: 'Defiant Shell',
-        itemId: ,
-        img: ,
+        itemId: 950,
+        img: defiant_shell,
     },
     {
         name: 'Doubloon',
-        itemId: ,
-        img: ,
+        itemId: 1803,
+        img: doubloon,
     },
     {
         name: 'Elven Tunic',
-        itemId: ,
-        img: ,
+        itemId: 573,
+        img: elven_tunic,
     },
     {
         name: 'Enchanted Quiver',
-        itemId: ,
-        img: ,
+        itemId: 361,
+        img: enchanted_quiver,
     },
     {
         name: 'Nemesis Curse',
-        itemId: ,
-        img: ,
+        itemId: 1159,
+        img: nemesis_curse,
     },
     {
         name: 'Ogre Seal Totem',
-        itemId: ,
-        img: ,
+        itemId: 949,
+        img: ogre_seal_totem,
     },
     {
         name: 'Paladin Sword',
-        itemId: ,
-        img: ,
+        itemId: 376,
+        img: paladin_sword,
     },
     {
         name: 'Psychic Headband',
-        itemId: ,
-        img: ,
+        itemId: 675,
+        img: psychic_headband,
     },
     {
         name: "Vindicator's Axe",
-        itemId: ,
-        img: ,
+        itemId: 2096,
+        img: vindicators_axe,
     },
     {
         name: 'Ancient Guardian',
-        itemId: ,
-        img: ,
+        itemId: 1156,
+        img: ancient_guardian,
     },
     {
         name: "Ascetic's Cap",
-        itemId: ,
-        img: ,
+        itemId: 825,
+        img: ascetic_cap,
     },
     {
         name: "Aviana's Feather",
-        itemId: ,
-        img: ,
+        itemId: 1160,
+        img: avianas_feather,
     },
     {
         name: 'Havoc Hammer',
-        itemId: ,
-        img: ,
+        itemId: 364,
+        img: havoc_hammer,
     },
     {
         name: "Martyr's Plate",
-        itemId: ,
-        img: ,
+        itemId: 2192,
+        img: martyrs_plate,
     },
     {
         name: 'Mind Breaker',
-        itemId: ,
-        img: ,
+        itemId: 309,
+        img: mind_breaker,
     },
     {
         name: 'Ninja Gear',
-        itemId: ,
-        img: ,
+        itemId: 362,
+        img: ninja_gear,
     },
     {
         name: 'Rattlecage',
-        itemId: ,
-        img: ,
+        itemId: 1168,
+        img: rattlecage,
     },
     {
         name: 'Stormcrafter',
-        itemId: ,
-        img: ,
+        itemId: 585,
+        img: stormcrafter,
     },
     {
         name: 'Telescope',
-        itemId: ,
-        img: ,
+        itemId: 336,
+        img: telescope,
     },
     {
         name: 'Timeless Relic',
-        itemId: ,
-        img: ,
+        itemId: 300,
+        img: timeless_relic,
     },
     {
         name: 'Trickster Cloak',
-        itemId: ,
-        img: ,
+        itemId: 571,
+        img: trickster_cloak,
     },
     {
         name: 'Apex',
-        itemId: ,
-        img: ,
+        itemId: 366,
+        img: apex,
     },
     {
         name: "Arcanist's Armor",
-        itemId: ,
-        img: ,
+        itemId: 829,
+        img: arcanist_armor,
     },
     {
         name: 'Book of Shadows',
-        itemId: ,
-        img: ,
+        itemId: 677,
+        img: book_of_shadow,
     },
     {
         name: 'Book of the Dead',
-        itemId: ,
-        img: ,
+        itemId: 370,
+        img: book_of_the_dead,
     },
     {
         name: 'Force Boots',
-        itemId: ,
-        img: ,
+        itemId: 291,
+        img: force_boots,
     },
     {
         name: "Giant's Ring",
-        itemId: ,
-        img: ,
+        itemId: 678,
+        img: giants_ring,
     },
     {
         name: 'Magic Lamp',
-        itemId: ,
-        img: ,
+        itemId: 365,
+        img: magic_lamp,
     },
     {
         name: 'Mirror Shield',
-        itemId: ,
-        img: ,
+        itemId: 301,
+        img: mirror_shield,
     },
     {
         name: 'Pirate Hat',
-        itemId: ,
-        img: ,
+        itemId: 372,
+        img: pirate_hat,
     },
     {
         name: 'Seer Stone',
-        itemId: ,
-        img: ,
+        itemId: 294,
+        img: seer_stone,
     },
     {
         name: 'Stygian Desolator',
-        itemId: ,
-        img: ,
+        itemId: 292,
+        img: stygian_desolator,
     },
     {
         name: 'Unwavering Condition',
-        itemId: ,
-        img: ,
+        itemId: 1161,
+        img: unwavering_condition,
     },
     {
         name: 'Ballista',
-        itemId: ,
-        img: ,
+        itemId: 367,
+        img: ballista,
     },
     {
         name: 'Blast Rig',
-        itemId: ,
-        img: ,
+        itemId: 834,
+        img: blast_rig,
     },
     {
         name: "Brigand's Blade",
-        itemId: ,
-        img: ,
+        itemId: 828,
+        img: brigands_blade,
     },
     {
         name: 'Chipped Vest',
-        itemId: ,
-        img: ,
+        itemId: 565,
+        img: chipped_vest,
     },
     {
         name: 'Clumsy Net',
-        itemId: ,
-        img: ,
+        itemId: 360,
+        img: clumsy_net,
     },
     {
         name: 'Dagger of Ristul',
-        itemId: ,
-        img: ,
+        itemId: 1077,
+        img: dagger_of_ristul,
     },
     {
         name: 'Elixir',
-        itemId: ,
-        img: ,
+        itemId: 302,
+        img: elixir,
     },
     {
         name: 'Essence Ring',
-        itemId: ,
-        img: ,
+        itemId: 359,
+        img: essence_ring,
     },
     {
         name: 'Ex Machina',
-        itemId: ,
-        img: ,
+        itemId: 374,
+        img: ex_machina,
     },
     {
         name: 'Fae Grenade',
-        itemId: ,
-        img: ,
+        itemId: 835,
+        img: fae_grenade,
     },
     {
         name: 'Fallen Sky',
-        itemId: ,
-        img: ,
+        itemId: 371,
+        img: fallen_sky,
     },
     {
         name: 'Flicker',
-        itemId: ,
-        img: ,
+        itemId: 335,
+        img: flicker,
     },
     {
         name: 'Fusion Rune',
-        itemId: ,
-        img: ,
+        itemId: 313,
+        img: fusion_rune,
     },
     {
         name: 'Greater Faerie Fire',
-        itemId: ,
-        img: ,
+        itemId: 299,
+        img: greater_faerie_fire,
     },
     {
         name: 'Helm of the Undying',
-        itemId: ,
-        img: ,
+        itemId: 327,
+        img: helm_of_the_undying,
     },
     {
         name: "Illusionist's Cape",
-        itemId: ,
-        img: ,
+        itemId: 363,
+        img: illustionists_cape,
     },
     {
         name: 'Imp Claw',
-        itemId: ,
-        img: ,
+        itemId: 334,
+        img: imp_claw,
     },
     {
         name: 'Iron Talon',
-        itemId: ,
-        img: ,
+        itemId: 239,
+        img: iron_talon,
     },
     {
         name: 'Ironwood Tree',
-        itemId: ,
-        img: ,
+        itemId: 304,
+        img: ironwood_tree,
     },
     {
         name: 'Keen Optic',
-        itemId: ,
-        img: ,
+        itemId: 287,
+        img: keen_optic,
     },
     {
         name: 'Mango Tree',
-        itemId: ,
-        img: ,
+        itemId: 328,
+        img: mango_tree,
     },
     {
         name: 'Minotaur Horn',
-        itemId: ,
-        img: ,
+        itemId: 377,
+        img: minotaur_horn,
     },
     {
         name: 'Nether Shawl',
-        itemId: ,
-        img: ,
+        itemId: 357,
+        img: nether_shawl,
     },
     {
         name: 'Ocean Heart',
-        itemId: ,
-        img: ,
+        itemId: 354,
+        img: ocean_heart,
     },
     {
         name: 'Penta-Edgeed Sword',
-        itemId: ,
-        img: ,
+        itemId: 638,
+        img: pentaedged_sword,
     },
     {
         name: 'Phoenix Ash',
-        itemId: ,
-        img: ,
+        itemId: 293,
+        img: phoenix_ash,
     },
     {
         name: "Poor Man's Shield",
-        itemId: ,
-        img: ,
+        itemId: 71,
+        img: poor_mans_shield,
     },
     {
         name: 'Possessed Mask',
-        itemId: ,
-        img: ,
+        itemId: 577,
+        img: possessed_mask,
     },
     {
         name: "Prince's Knife",
-        itemId: ,
-        img: ,
+        itemId: 325,
+        img: princes_knife,
     },
     {
         name: 'Quickening Charm',
-        itemId: ,
-        img: ,
+        itemId: 289,
+        img: quickening_charm,
     },
     {
         name: 'Quicksilver Amulet',
-        itemId: ,
-        img: ,
+        itemId: 686,
+        img: quicksivler_amulet,
     },
     {
         name: 'Repair Kit',
-        itemId: ,
-        img: ,
+        itemId: 308,
+        img: repair_kit,
     },
     {
         name: 'Ring of Aquila',
-        itemId: ,
-        img: ,
+        itemId: 212,
+        img: ring_of_aquila,
     },
     {
         name: 'Spell Prism',
-        itemId: ,
-        img: ,
+        itemId: 311,
+        img: spell_prism,
     },
     {
         name: 'Spider Legs',
-        itemId: ,
-        img: ,
+        itemId: 326,
+        img: spider_legs,
     },
     {
         name: 'The Leveller',
-        itemId: ,
-        img: ,
+        itemId: 379,
+        img: the_leveller,
     },
     {
         name: 'Third Eye',
-        itemId: ,
-        img: ,
+        itemId: 310,
+        img: third_eye,
     },
     {
         name: 'Titan Sliver',
-        itemId: ,
-        img: ,
+        itemId: 381,
+        img: titan_sliver,
     },
     {
         name: 'Tome of Aghanim',
-        itemId: ,
-        img: ,
+        itemId: 307,
+        img: tome_of_aghanim,
     },
     {
         name: 'Trident',
-        itemId: ,
-        img: ,
+        itemId: 275,
+        img: trident,
     },
     {
         name: "Tumbler's Toy",
-        itemId: ,
-        img: ,
+        itemId: 840,
+        img: tumblers_toy,
     },
     {
         name: 'Witchbane',
-        itemId: ,
-        img: ,
+        itemId: 837,
+        img: witchbane,
     },
     {
         name: 'Witless Shako',
-        itemId: ,
-        img: ,
+        itemId: 330,
+        img: witless_shako,
     },
     {
         name: 'Woodland Striders',
-        itemId: ,
-        img: ,
+        itemId: 368,
+        img: woodland_striders,
     },
+    {
+        name: 'Healing Salve',
+        itemId: 39,
+        img: healing_salve,
+    },
+    {
+        name: "Aghanim's Shard",
+        itemId: 609,
+        img: aghanims_shard,
+    },
+    {
+        name: 'Smoke of Deceit',
+        itemId: 188,
+        img: smoke_of_deceit,
+    },
+    {
+        name: 'Sacred Relic',
+        itemId: 54,
+        img: sacred_relic,
+    },
+    {
+        name: 'Medallion of Courage',
+        itemId: 187,
+        img: medallion_of_courage,
+    },
+    {
+        name: 'Quarterstaff',
+        itemId: 10,
+        img: quarterstaff,
+    },
+    {
+        name: 'Necronomicon I',
+        itemId: 106,
+        img: necronomicon_1,
+    },
+    {
+        name: 'Necronomicon II',
+        itemId: 193,
+        img: necronomicon_2,
+    },
+    {
+        name: 'Necronomicon III',
+        itemId: 194,
+        img: necronomicon_3,
+    },
+    {
+        name: 'Hood of Defiance',
+        itemId: 131,
+        img: hood_of_defiance,
+    },
+    {
+        name: 'Tome of Knowledge',
+        itemId: 257,
+        img: tome_of_knowledge,
+    },
+    {
+        name: 'Stout shield',
+        itemId: 182,
+        img: stout_shield,
+    },
+    {
+        name: 'Tier 1 Token',
+        itemId: 2091,
+        img: tier_1_token,
+    },
+    {
+        name: 'Tier 2 Token',
+        itemId: 2092,
+        img: tier_2_token,
+    },
+    {
+        name: 'Tier 3 Token',
+        itemId: 2093,
+        img: tier_3_token,
+    },
+    {
+        name: 'Tier 4 Token',
+        itemId: 2094,
+        img: tier_4_token,
+    },
+    {
+        name: 'Tier 5 Token',
+        itemId: 2095,
+        img: tier_5_token,
+    },
+    {
+        name: 'Recipe',
+        img: recipe,
+    },
+
 ]
