@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import heroes from "../../data/DotaHeroes";
+import items from "../../data/DotaItems"
 import axios from "axios";
 import useAuth from "../../hooks/useAuth";
 import useFriends from "../../hooks/useFriends";
@@ -15,7 +16,6 @@ const MatchDetailsPage = ({}) => {
     const [matchInfo, setMatchInfo] = useState();
     const [result, setResult] = useState(0);
     const [heroId, setHeroId] = useState(0);
-    const [items, setItems] = useState([]);
     const [kills, setKills] = useState(0);
     const [deaths, setDeaths] = useState(0);
     const [assists, setAssists] = useState(0);
@@ -23,6 +23,8 @@ const MatchDetailsPage = ({}) => {
     const [healing, setHealing] = useState(0);
     const [netWorth, setNetWorth] = useState(0);
     const [playerItems, setPlayerItems] = useState([]);
+    const [itemObjs, setItemObjs] = useState([]);
+    const [aghsIcon, setAghsIcon] = useState({});
     const [duration, setDuration] = useState(0);
     const [friendsInMatch, setFriendsInMatch] = useState([]);
     const [playedHero, setPlayedHero] = useState({});
@@ -83,10 +85,31 @@ const MatchDetailsPage = ({}) => {
         setDamage(playerDetails[0].hero_damage)
         setHealing(playerDetails[0].hero_healing)
         setNetWorth(playerDetails[0].net_worth)
-        let playerItems = [playerDetails[0].item_0, playerDetails[0].item_1, playerDetails[0].item_2, playerDetails[0].item_3, playerDetails[0].item_4, playerDetails[0].item_5, playerDetails[0].backpack_0, playerDetails[0].backpack_1, playerDetails[0].backpack_2, playerDetails[0].item_neutral]
-        setPlayerItems(playerItems)
         formatDuration(matchInfo.duration)
         determineMatchResult(playerDetails)
+        let playerItems = [playerDetails[0].item_0, playerDetails[0].item_1, playerDetails[0].item_2, playerDetails[0].item_3, playerDetails[0].item_4, playerDetails[0].item_5, playerDetails[0].backpack_0, playerDetails[0].backpack_1, playerDetails[0].backpack_2, playerDetails[0].item_neutral]
+        setPlayerItems(playerItems)
+        aghsIcons(playerDetails)
+    }
+
+    const aghsIcons = (playerDetails) => {
+        let icon
+
+        console.log('deets', playerDetails )
+        if(playerDetails[0].aghanims_shard === 1 && playerDetails[0].aghanims_scepter === 1){
+            icon = 'Both'
+        }
+        else if(playerDetails[0].aghanims_shard === 1 && playerDetails[0].aghanims_scepter === 0){
+            icon = 'Shard'
+        }
+        else if(playerDetails[0].aghanims_shard === 0 && playerDetails[0].aghanims_scepter === 1){
+            icon = 'Scepter'
+        }
+        else{
+            icon = 'Neither'
+        }
+        console.log('icon', icon)
+        setAghsIcon(items.find(i => i.name === icon))
     }
 
     const determineMatchResult = (playerDetails) => {
@@ -127,6 +150,30 @@ const MatchDetailsPage = ({}) => {
         const playedHeroObj = heroes.filter((hero) => hero.heroId == heroId)
         setPlayedHero(playedHeroObj[0])
     }, [heroId]);
+
+    useEffect(() => {
+        const itemObjects = playerItems.map((item, i) => {
+            let matchedItem
+            if(item == 0){
+                if(i > 6){
+                    matchedItem = items.find(i => i.name === 'Empty Backpack Slot')
+                    matchedItem.class = 'empty_backpack'
+                }
+                else{
+                    matchedItem = items.find(i => i.name === 'Empty Slot')
+                }
+            }
+            else{
+                matchedItem = items.find(i => i.itemId === item)
+                if(i >= 6){
+                    matchedItem.class = 'backpack'
+                }
+            }
+            return matchedItem
+        })
+        console.log(itemObjects)
+        setItemObjs(itemObjects)
+    }, [playerItems]);
 
     useEffect(() => {
         let filteredCommentObjs = [];
@@ -180,18 +227,31 @@ const MatchDetailsPage = ({}) => {
                         <p>Deaths: {deaths}</p>
                         <p>Assists: {assists}</p>
                     </div>
-                    <div className="items">
-                        <p>{playerItems[0]}</p>
-                        <p>{playerItems[1]}</p>
-                        <p>{playerItems[2]}</p>
-                        <p>{playerItems[3]}</p>
-                        <p>{playerItems[4]}</p>
-                        <p>{playerItems[5]}</p>
-                        <p>{playerItems[6]}</p>
-                        <p>{playerItems[7]}</p>
-                        <p>{playerItems[8]}</p>
-                        <p>{playerItems[9]}</p>
-                    </div>
+                    {itemObjs.length == 10 &&
+                        <div className="inventory">
+                            <div className="items"> 
+                                <div className="active-items">
+                                    <img className={`item-img`} src={itemObjs[0].img} alt="" />
+                                    <img className="item-img" src={itemObjs[1].img} alt="" />
+                                    <img className="item-img" src={itemObjs[2].img} alt="" />
+                                    <img className="item-img" src={itemObjs[3].img} alt="" />
+                                    <img className="item-img" src={itemObjs[4].img} alt="" />
+                                    <img className="item-img" src={itemObjs[5].img} alt="" />
+                                </div>
+                                <div className="backpack-items">
+                                    <div className={`${itemObjs[6].class}`}>
+                                        <img className={`item-img pack`} src={itemObjs[6].img} alt="" />
+                                    </div>
+                                    <img className={`item-img pack`} src={itemObjs[7].img} alt="" />
+                                    <img className={`item-img pack`} src={itemObjs[8].img} alt="" />
+
+                                </div>
+                            </div>
+                            <div className="inv-sidebar">
+                                <img className="neutral-item" src={itemObjs[9].img} alt="" />
+                                <img src={aghsIcon.img} alt="" />
+                            </div>
+                        </div>}
                 </div>
             </div>
             <div className="bottom-padding">

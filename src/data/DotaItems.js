@@ -32,7 +32,7 @@ import bloodthorn from '../images/ItemIcons/Bloodthorn_icon.webp'
 import book_of_shadow from '../images/ItemIcons/Book_of_Shadows_icon.webp'
 import book_of_the_dead from '../images/ItemIcons/Book_of_the_Dead_icon.webp'
 import boots_of_bearing from '../images/ItemIcons/Boots_of_Bearing_icon.webp'
-import boots_of_speed from '../images/ItemIcons/'
+import boots_of_speed from '../images/ItemIcons/Boots_of_Speed_icon.webp'
 import boots_of_travel_1 from '../images/ItemIcons/Boots_of_Travel_1_icon.webp'
 import boots_of_travel_2 from '../images/ItemIcons/Boots_of_Travel_2_icon.webp'
 import bottle from '../images/ItemIcons/Bottle_29_icon.webp'
@@ -202,7 +202,7 @@ import phylactery from '../images/ItemIcons/Phylactery_icon.webp'
 import pig_pole from '../images/ItemIcons/Pig_Pole_icon.webp'
 import pipe_of_insight from '../images/ItemIcons/Pipe_of_Insight_icon.webp'
 import pirate_hat from '../images/ItemIcons/Pirate_Hat_icon.webp'
-import platemail from '../images/ItemIcons/Platemail_icon.webpq'
+import platemail from '../images/ItemIcons/Platemail_icon.webp'
 import point_booster from '../images/ItemIcons/Point_Booster_icon.webp'
 import poor_mans_shield from '../images/ItemIcons/Poor_Man%27s_Shield_icon.webp'
 import possessed_mask from '../images/ItemIcons/Possessed_Mask_icon.webp'
@@ -266,7 +266,7 @@ import shared_tango from '../images/ItemIcons/Tango_29_icon.webp'
 import talisman_of_evasion from '../images/ItemIcons/Talisman_of_Evasion_icon.webp'
 import tango from '../images/ItemIcons/Tango_icon.webp'
 import telescope from '../images/ItemIcons/Telescope_icon.webp'
-import tiara_of_selemene from '../images/ItemIcons/tiara_of_selemene'
+import tiara_of_selemene from '../images/ItemIcons/Tiara_of_Selemene_icon.webp'
 import the_leveller from '../images/ItemIcons/The_Leveller_icon.webp'
 import tier_1_token from '../images/ItemIcons/Tier_1_Token_icon.webp'
 import tier_2_token from '../images/ItemIcons/Tier_2_Token_icon.webp'
@@ -306,6 +306,12 @@ import woodland_striders from '../images/ItemIcons/Woodland_Striders_icon.webp'
 import wraith_band from '../images/ItemIcons/Wraith_Band_icon.webp'
 import yasha_and_kaya from '../images/ItemIcons/Yasha_and_Kaya_icon.webp'
 import yasha from '../images/ItemIcons/Yasha_icon.webp'
+import empty_slot from '../images/ItemIcons/Empty_slot.png'
+import empty_backpack_slot from '../images/ItemIcons/Empty_backpack_slot.png'
+import both from '../images/ItemIcons/both.PNG'
+import shard from '../images/ItemIcons/shard.PNG'
+import scepter from '../images/ItemIcons/scepter.PNG'
+import neither from '../images/ItemIcons/none.PNG'
 
 const items = [
     {
@@ -1849,8 +1855,36 @@ const items = [
         img: tier_5_token,
     },
     {
+        name: 'Empty Slot',
+        itemId: 0,
+        img: empty_slot
+    },
+    {
+        name: 'Empty Backpack Slot',
+        itemId: 0,
+        img: empty_backpack_slot
+    },
+    {
         name: 'Recipe',
         img: recipe,
     },
+    {
+        name: 'Both',
+        img: both
+    },
+    {
+        name: 'Scepter',
+        img: scepter
+    },
+    {
+        name: 'Shard',
+        img: shard
+    },
+    {
+        name: 'Neither',
+        img: neither
+    },
 
 ]
+
+export default items;
