@@ -17,15 +17,29 @@
     object-fit: contain;
     height: 164px;
     border-bottom: 1px solid #a52125;
+    width: 187px;
     padding: 2rem;
 }
 .friend-hero-sidebar{
     border: 1px solid #a52125;
-}
-.friend-hero-info{
-    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+}
+.friend-item-img{
+    height: 35px;
+}
+.friend-backpack-item{
+    position: absolute;
+    top: -12.5%;
+    height: 35px;
+}
+.friend-filled{
+    height: 26px;
+    overflow: hidden;
+    filter: grayscale(100%);
+    position: relative;
+}
+.friend-empty-backpack-slot{
+    width: 48px;
 }

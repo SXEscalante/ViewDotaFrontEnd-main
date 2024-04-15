@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import heroes from "../../data/DotaHeroes";
-import items from "../../data/DotaItems"
+import items from "../../data/DotaItems";
 import axios from "axios";
 import useAuth from "../../hooks/useAuth";
 import useFriends from "../../hooks/useFriends";
@@ -155,7 +155,7 @@ const MatchDetailsPage = ({}) => {
         const itemObjects = playerItems.map((item, i) => {
             let matchedItem
             if(item == 0){
-                if(i > 6){
+                if(i >= 6){
                     matchedItem = items.find(i => i.name === 'Empty Backpack Slot')
                     matchedItem.class = 'empty_backpack'
                 }
@@ -197,13 +197,15 @@ const MatchDetailsPage = ({}) => {
         <div className="match-page">
             <div className="match-data">
                 <div className="data-container">
-                    <div className="data duration">
+                    <h1 className={`match-result ${result ? "match-win" : "match-loss"}`}>{result ? "Victory" : "Defeat"}</h1>
+                    <div className="data">
                         <p>Duration: </p>
                         <p>{duration}</p>
                     </div>
-                    
-                    <h1 className={`match-result ${result ? "match-win" : "match-loss"}`}>{result ? "Victory" : "Defeat"}</h1>
-
+                    <div className="data">
+                        <p>KDA: </p>
+                        <p>{`${kills}/${deaths}/${assists}`}</p>
+                    </div>
                     <div className="data">
                         <p>Damage: </p>
                         <p>{damage}</p>
@@ -223,15 +225,12 @@ const MatchDetailsPage = ({}) => {
                     <div className="hero-info">
                         {playedHero &&
                             <img src={playedHero.img} alt="" className="hero-image"/>}
-                        <p>Kills: {kills}</p>
-                        <p>Deaths: {deaths}</p>
-                        <p>Assists: {assists}</p>
                     </div>
                     {itemObjs.length == 10 &&
                         <div className="inventory">
                             <div className="items"> 
                                 <div className="active-items">
-                                    <img className={`item-img`} src={itemObjs[0].img} alt="" />
+                                    <img className="item-img" src={itemObjs[0].img} alt="" />
                                     <img className="item-img" src={itemObjs[1].img} alt="" />
                                     <img className="item-img" src={itemObjs[2].img} alt="" />
                                     <img className="item-img" src={itemObjs[3].img} alt="" />
@@ -239,12 +238,15 @@ const MatchDetailsPage = ({}) => {
                                     <img className="item-img" src={itemObjs[5].img} alt="" />
                                 </div>
                                 <div className="backpack-items">
-                                    <div className={`${itemObjs[6].class}`}>
-                                        <img className={`item-img pack`} src={itemObjs[6].img} alt="" />
+                                    <div className={`${itemObjs[6].empty ? '' : 'filled'}`}>
+                                        <img className={`${itemObjs[6].empty ? 'empty-backpack-slot' : 'backpack-item'}`} src={itemObjs[6].img} alt="" />
                                     </div>
-                                    <img className={`item-img pack`} src={itemObjs[7].img} alt="" />
-                                    <img className={`item-img pack`} src={itemObjs[8].img} alt="" />
-
+                                    <div className={`${itemObjs[7].empty ? '' : 'filled'}`}>
+                                        <img className={`${itemObjs[7].empty ? 'empty-backpack-slot' : 'backpack-item'}`} src={itemObjs[7].img} alt="" />
+                                    </div>
+                                    <div className={`${itemObjs[8].empty ? '' : 'filled'}`}>
+                                        <img className={`${itemObjs[8].empty ? 'empty-backpack-slot' : 'backpack-item'}`} src={itemObjs[8].img} alt="" />
+                                    </div>
                                 </div>
                             </div>
                             <div className="inv-sidebar">
